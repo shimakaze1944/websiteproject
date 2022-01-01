@@ -1,0 +1,130 @@
+@media only screen and (max-width: 768px) {
+  header .container .row {
+    margin-left: 0.5em;
+  }
+  header .row .col-md-7 {
+    padding: 5vmin 1vmin 17vmin 1vmin;
+  }
+  header .container .col-md-7 h1 {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0em;
+  }
+  header .container .col-12 .row .col-6 .text-left {
+    display: none;
+  }
+  header .container .col-12 .row .col-6 h6 {
+    font-size: 10px;
+  }
+  header .container .col-12 .row .col-6 p {
+    font-size: 9px;
+  }
+  header .navbar-brand {
+    padding-left: 1rem;
+  }
+  .h1-font-size {
+    font-size: 45px;
+  }
+  .section-1 {
+    display: block;
+  }
+  .section-1 .row .col-12 .row .col-6 .text-left {
+    margin: 2rem 2rem 2rem 2rem;
+  }
+  .section-1 .row .col-12 .row .col-6 .text-left h6 {
+    font-size: 15px;
+  }
+  .section-1 .row .col-12 .row .col-6 .text-left p {
+    font-size: 12px;
+  }
+  .cover {
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .cover-2 {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .cover-2 .mobile-content-2 {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0);
+    padding: 19vmin 5vmin 18vmin 5vmin;
+  }
+
+  .cover-2 .mobile-content-2 h1 {
+    font-family: var(--Cairo-font);
+    font-size: 8vmin;
+    color: whitesmoke;
+    vertical-align: middle;
+    display: inline-block;
+    font-weight: bolder;
+  }
+  .mobile-content {
+    height: 100%;
+    background: rgba(252, 163, 17, 1);
+    padding: 8vmin 5vmin 18vmin 5vmin;
+    display: block;
+  }
+
+  .mobile-content h1 {
+    font-family: var(--Cairo-font);
+    font-size: 25px;
+  }
+
+  .mobilecontent p {
+    font-family: var(--Oxygen-font);
+    font-size: 12px;
+  }
+  .section-6
+    .container
+    .row
+    .col-md-10
+    .wrapper
+    .row
+    .col-md-6
+    .contact-wrap
+    h2 {
+    padding-top: 20%;
+    font-size: 9vmin;
+    margin: 0rem 0.5rem 0rem 1rem;
+  }
+  .section-6
+    .container
+    .row
+    .col-md-10
+    .wrapper
+    .row
+    .col-md-6
+    .contact-wrap
+    p {
+    margin: 0rem 8rem 1rem 0rem;
+    font-size: 4.2vmin;
+    margin: 0rem 0.5rem 0rem 1rem;
+  }
+  footer .row .col-md-2 {
+    margin-top: 8vmin;
+  }
+}
+
+/* screen size 375px */
+
+@media only screen and (max-width: 375px) {
+  .logo {
+    max-height: 40px;
+  }
+  header .navbar-brand {
+    padding-left: 0.8rem;
+  }
+  .section-5 .card {
+    width: 12em;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .section-4 .carousel-inner {
+    margin-left: -4vmin;
+  }
+}

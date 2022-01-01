@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css?family=Cairo");
+@import url("https://fonts.googleapis.com/css?family=Oxygen");
+* {
+  box-sizing: border-box;
+}
+header,
+section {
+  overflow-x: hidden;
+}
+.h1-font-size {
+  font-size: 55px;
+}
+
+:root {
+  --Cairo-font: "Cairo", cursive;
+  --Oxygen-font: "Oxygen", cursive;
+}
+
+header a {
+  font-family: var(--Cairo-font);
+  font-size: 1.4em;
+  color: #343434;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+header .nav-item:last-child {
+  padding-right: 10.5em;
+}
+
+header .nav-item {
+  padding: 0.9em;
+}
+
+header .navbar-brand {
+  padding-left: 8rem;
+  margin-top: 1.2rem;
+}
+
+header .nav-link:hover {
+  color: black;
+}
+
+header .row .col-md-7 {
+  padding: 22vmin 1vmin 0vmin 1vmin;
+}
+header .container .col-12 .row .col-6 .text-left {
+  margin: 2rem 2rem 0rem 3rem;
+}
+header .row .col-md-5 {
+  padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-5 img {
+  width: 90%;
+}
+
+header {
+  background-image: url("assets/header-img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header .container .col-md-7 {
+  font-family: "Cairo";
+}
+
+header .container .col-md-7 h6 {
+  padding: 1vmin;
+  letter-spacing: 4px;
+}
+
+header .container .col-md-7 h1 {
+  font-size: 80px;
+  font-weight: bold;
+  padding: 0.1em 0em;
+  letter-spacing: 0em;
+}
+
+header .container .col-md-7 p {
+  padding: 1vmin 5vmin;
+}
+
+.primary-btn {
+  border-radius: 30px;
+  font-weight: bold;
+}
+.logo {
+  max-width: 400px;
+  max-height: 60px;
+}
+
+/********** section 1 **************/
+
+.section-1 {
+  display: none;
+}
+.section-1 .row .col-md-6 .panel h1 {
+  font-weight: bold;
+  padding: 0.4em 0;
+  font-size: 2em;
+}
+
+.section-1 .row .col-md-6 .panel p {
+  font-size: 0.9em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/*  Section 2  */
+
+.cover {
+  width: 100%;
+  background: url("assets/index-home.jpg");
+  background-size: 150%;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.cover .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  z-index: 999;
+}
+
+.cover .content {
+  width: 50%;
+  height: 100%;
+  background: rgba(252, 163, 17, 1);
+  padding: 19vmin 5vmin 18vmin 5vmin;
+}
+
+.cover .content > h1 {
+  font-family: var(--Cairo-font);
+  font-size: 6vmin;
+  color: whitesmoke;
+}
+
+.cover .content > p {
+  font-family: var(--Oxygen-font);
+  font-size: 3vmin;
+  color: #e5e5e5;
+}
+.cover-2 {
+  width: 100%;
+  background: url("assets/index-home.jpg");
+  background-size: 150%;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.cover-2 .content-2 {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0);
+  padding: 19vmin 5vmin 18vmin 5vmin;
+}
+
+.cover-2 .content-2 h1 {
+  font-family: var(--Cairo-font);
+  font-size: 12vmin;
+  color: whitesmoke;
+  vertical-align: middle;
+  display: inline-block;
+  font-weight: bolder;
+}
+.content-2 i {
+  padding: 2rem 0rem 0rem 1rem;
+}
+.content-2 p {
+  font-family: var(--Cairo-font);
+  font-size: 32px;
+  color: whitesmoke;
+  vertical-align: middle;
+  display: inline-block;
+  font-weight: bolder;
+  padding: 0rem 1rem 2rem 1rem;
+}
+.mobile-content {
+  display: none;
+}
+.numbers {
+  background-color: rgb(115, 125, 115);
+}
+.numbers .rect {
+  position: relative;
+  z-index: 1;
+  background: white;
+  width: 17rem;
+  height: 12rem;
+  padding-top: 3.5vmin;
+  margin: 1rem;
+  border-radius: 0.5em;
+}
+
+.numbers .rect h1 {
+  font-size: 5rem;
+  color: rgb(34, 34, 34);
+}
+
+.numbers .rect > p {
+  font-family: var(--Oxygen-font);
+}
+
+/* Section 3 */
+.section-3 {
+  margin-top: 10vmin;
+}
+.section-3 .row {
+  margin-top: 5vmin;
+}
+
+.section-4 {
+  margin-top: 14.5vmin;
+}
+
+.section-4 .col-md-12 > h1 {
+  padding: 2em 0 0.5em 0;
+  color: whitesmoke;
+  font-size: 6vmin;
+}
+
+.section-4 .col-md-12 > p {
+  padding: 0 4em;
+  padding-bottom: 2em;
+  color: var(--light-gray);
+  font-size: 3vmin;
+}
+
+/* Section 5 */
+
+.section-5 {
+  margin-top: 12vmin;
+}
+.section-5 .text-dark {
+  padding-bottom: 3rem;
+}
+.section-5 .text-dark h1 {
+  font-size: 10vmin;
+}
+
+.section-5 .carousel {
+  width: 70%;
+}
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.section-6 .container .row .col-md-10 .wrapper .row .col-md-6 .contact-wrap h2 {
+  padding-top: 40%;
+  font-size: 10vmin;
+}
+.section-6 .container .row .col-md-10 .wrapper .row .col-md-6 .contact-wrap p {
+  margin: 0rem 8rem 1rem 0rem;
+  font-size: 2.3vmin;
+}
+.section-6 .container .row .col-md-10 .wrapper .row .col-md-6 .info-wrap form {
+  padding: 20% 0 10% 0;
+}
+footer {
+  background: rgba(0, 0, 0, 0.815);
+  overflow-x: hidden;
+  padding: 14vmin 18vmin;
+}
+
+footer p > span {
+  color: #ff512f;
+}
+
+footer input {
+  border: none !important;
+}
+
+footer input::placeholder {
+  color: white !important;
+}
+
+footer .input-group .input-group-text {
+  background: var(--bggradient);
+  border: none;
+}
+
+footer .column i {
+  color: #dd2476;
+}
+
+/* It is Adjacent sibling combinator */
+
+footer .column i + i {
+  padding: 0 0.5em;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(255, 2555, 255, 1);
+  z-index: 9999999;
+  transition: all 1.5s ease;
+}
