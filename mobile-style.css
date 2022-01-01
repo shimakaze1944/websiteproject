@@ -41,11 +41,16 @@
     height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 0rem;
+  }
+  .cover .content {
+    display: none;
   }
   .cover-2 {
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 0rem;
   }
   .cover-2 .mobile-content-2 {
     width: 100%;

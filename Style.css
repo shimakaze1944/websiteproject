@@ -78,10 +78,12 @@ header .row .col-md-5 img {
 }
 
 header {
-  background-image: url("assets/header-img.jpg");
+  background-image: url("assets/indexheader.jpg");
+  background-color: rgba(255, 255, 255, 0.12);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-blend-mode: lighten;
 }
 
 header .container .col-md-7 {
@@ -133,10 +135,11 @@ header .container .col-md-7 p {
 
 .cover {
   width: 100%;
-  background: url("assets/index-home.jpg");
-  background-size: 150%;
+  background: url("assets/about.jpg");
+  background-size: 100%;
   position: relative;
   background-repeat: no-repeat;
+  background-position: 7rem -10rem;
 }
 
 .cover .overlay {
@@ -168,10 +171,11 @@ header .container .col-md-7 p {
 }
 .cover-2 {
   width: 100%;
-  background: url("assets/index-home.jpg");
-  background-size: 150%;
+  background: url("assets/movers.jpg");
+  background-size: 100%;
   position: relative;
   background-repeat: no-repeat;
+  background-position: 0rem -8rem;
 }
 .cover-2 .content-2 {
   width: 100%;
