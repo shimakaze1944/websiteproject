@@ -43,9 +43,9 @@ fieldset:disabled .btn {
   border-color: rgb(20, 33, 61);
 }
 .btn-primary:hover {
-  color: #000;
-  background-color: rgb(229, 229, 229);
-  border-color: rgb(229, 229, 229);
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  border-color: rgb(0, 0, 0);
 }
 .btn-check:focus + .btn-primary,
 .btn-primary:focus {
