@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Cairo");
 @import url("https://fonts.googleapis.com/css?family=Oxygen");
+
+@font-face {
+  font-family: CreatoDisplay;
+  src: url(font/Creato-Display.otf);
+}
+@font-face {
+  font-family: LuloClean;
+  src: url(font/Lulo-Clean.ttf);
+}
 * {
   box-sizing: border-box;
 }
@@ -10,16 +19,20 @@ section {
 .h1-font-size {
   font-size: 55px;
 }
-
 :root {
   --Cairo-font: "Cairo", cursive;
   --Oxygen-font: "Oxygen", cursive;
+  --Creato-font: "CreatoDisplay", cursive;
+  --Lulo-font: "LuloClean", cursive;
 }
 
 header a {
-  font-family: var(--Cairo-font);
-  font-size: 1.4em;
-  color: #343434;
+  font-family: var(--Lulo-font);
+  font-size: 1.2em;
+  color: rgba(252, 163, 17, 1);
+}
+header h1 {
+  font-family: var(--Lulo-font);
 }
 
 .dropdown-content {
@@ -78,12 +91,13 @@ header .row .col-md-5 img {
 }
 
 header {
-  background-image: url("assets/indexheader.jpg");
-  background-color: rgba(255, 255, 255, 0.12);
+  background-image: url("assets/kerukan.jpg");
+  background-color: rgba(255, 255, 255, 0.15);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: lighten;
+  padding-bottom: 5vmin;
 }
 
 header .container .col-md-7 {
@@ -96,7 +110,7 @@ header .container .col-md-7 h6 {
 }
 
 header .container .col-md-7 h1 {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: bold;
   padding: 0.1em 0em;
   letter-spacing: 0em;
@@ -159,13 +173,13 @@ header .container .col-md-7 p {
 }
 
 .cover .content > h1 {
-  font-family: var(--Cairo-font);
+  font-family: var(--Lulo-font);
   font-size: 6vmin;
   color: whitesmoke;
 }
 
 .cover .content > p {
-  font-family: var(--Oxygen-font);
+  font-family: var(--Creato-font);
   font-size: 3vmin;
   color: #e5e5e5;
 }
@@ -185,18 +199,19 @@ header .container .col-md-7 p {
 }
 
 .cover-2 .content-2 h1 {
-  font-family: var(--Cairo-font);
-  font-size: 12vmin;
-  color: whitesmoke;
+  font-family: var(--Lulo-font);
+  font-size: 10vmin;
+  color: #fca311;
   vertical-align: middle;
   display: inline-block;
   font-weight: bolder;
+  padding: 8vmin 0vmin;
 }
 .content-2 i {
   padding: 2rem 0rem 0rem 1rem;
 }
 .content-2 p {
-  font-family: var(--Cairo-font);
+  font-family: var(--Creato-font);
   font-size: 32px;
   color: whitesmoke;
   vertical-align: middle;
@@ -227,7 +242,7 @@ header .container .col-md-7 p {
 }
 
 .numbers .rect > p {
-  font-family: var(--Oxygen-font);
+  font-family: var(--Creato-font);
 }
 
 /* Section 3 */
@@ -325,7 +340,8 @@ footer .column i + i {
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgba(255, 2555, 255, 1);
+  background: rgba(255, 2555, 255, 0.88);
   z-index: 9999999;
-  transition: all 1.5s ease;
+  transition: all 1s ease;
+  max-height: 120px;
 }
