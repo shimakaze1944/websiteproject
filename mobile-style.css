@@ -112,13 +112,23 @@
   footer .row .col-md-2 {
     margin-top: 8vmin;
   }
+  .logo {
+    max-height: 100px;
+  }
+}
+
+/* screen size 480px */
+@media all and (max-width: 480px) {
+  .logo {
+    max-height: 90px;
+  }
 }
 
 /* screen size 375px */
 
 @media only screen and (max-width: 375px) {
   .logo {
-    max-height: 80px;
+    max-height: 70px !important;
   }
   header .navbar-brand {
     padding-left: 0.8rem;

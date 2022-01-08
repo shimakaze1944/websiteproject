@@ -9,8 +9,11 @@
   font-family: LuloClean;
   src: url(font/Lulo-Clean.ttf);
 }
+
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 header,
 section {
@@ -25,7 +28,11 @@ section {
   --Creato-font: "CreatoDisplay", cursive;
   --Lulo-font: "LuloClean", cursive;
 }
-
+.wrapHead {
+  transition: all ease-in-out 0.5s;
+}
+.wrapHead .fixed-to-top {
+}
 header a {
   font-family: var(--Lulo-font);
   font-size: 1.2em;
@@ -68,8 +75,8 @@ header .nav-item {
 }
 
 header .navbar-brand {
-  padding-left: 8rem;
-  margin-top: 1.2rem;
+  padding-left: 6rem;
+  margin-top: 0.65rem;
 }
 
 header .nav-link:hover {
@@ -98,6 +105,7 @@ header {
   background-size: cover;
   background-blend-mode: lighten;
   padding-bottom: 5vmin;
+  transition: all ease-in-out 0.5s;
 }
 
 header .container .col-md-7 {
@@ -126,7 +134,7 @@ header .container .col-md-7 p {
 }
 .logo {
   max-width: 400px;
-  max-height: 120px;
+  max-height: 150px;
 }
 
 /********** section 1 **************/
@@ -343,5 +351,30 @@ footer .column i + i {
   background: rgba(255, 2555, 255, 0.88);
   z-index: 9999999;
   transition: all 1s ease;
-  max-height: 120px;
+}
+.float {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 2vmin;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  display: inline-block;
+}
+.float p {
+  padding: 0rem 1rem;
+  font-size: 19px;
+}
+.my-float {
+  margin-top: 16px;
+  margin-left: 10px;
+  font-size: 23px;
+}
+.fixed {
+  position: fixed;
+  top: 0;
 }
