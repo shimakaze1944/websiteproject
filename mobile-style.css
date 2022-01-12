@@ -115,6 +115,33 @@
   .logo {
     max-height: 100px;
   }
+  #floating-button {
+    display: none;
+  }
+  #floating-button-2 {
+    display: block;
+  }
+  .float-2 {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 2vmin;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    display: inline-block;
+  }
+  .my-float-2 {
+    padding: 1rem;
+    font-size: 23px;
+  }
+  .fixed {
+    position: fixed;
+    top: 0;
+  }
 }
 
 /* screen size 480px */

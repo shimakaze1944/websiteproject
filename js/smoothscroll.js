@@ -33,7 +33,7 @@ $("#sec-4").click(function () {
   $(this).addClass("active");
   $("html,body ").animate(
     {
-      scrollTop: $("#quote").offset().top - 120,
+      scrollTop: $("#unit").offset().top - 250,
     },
     1000
   );
@@ -56,7 +56,7 @@ $("#service").waypoint(
   { offset: 101 }
 );
 
-$("#quote").waypoint(
+$("#unit").waypoint(
   function () {
     $(".container ul li").children().removeClass("active");
     $("#sec-4").addClass("active");

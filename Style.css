@@ -33,10 +33,11 @@ section {
 }
 .wrapHead .fixed-to-top {
 }
+
 header a {
   font-family: var(--Lulo-font);
   font-size: 1.2em;
-  color: rgba(252, 163, 17, 1);
+  color: rgb(252, 163, 17);
 }
 header h1 {
   font-family: var(--Lulo-font);
@@ -87,7 +88,7 @@ header .row .col-md-7 {
   padding: 22vmin 1vmin 0vmin 1vmin;
 }
 header .container .col-12 .row .col-6 .text-left {
-  margin: 2rem 2rem 0rem 3rem;
+  padding: 3rem 2rem 2rem 3rem;
 }
 header .row .col-md-5 {
   padding: 4.2vmin 1vmin;
@@ -352,6 +353,9 @@ footer .column i + i {
   background: rgba(255, 2555, 255, 0.88);
   z-index: 9999999;
   transition: all 1s ease;
+}
+#floating-button-2 {
+  display: none;
 }
 .float {
   position: fixed;
