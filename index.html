@@ -189,7 +189,8 @@
           <div class="col-lg-3 ml-auto">
             <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3" style="background-color: rgb(255, 255, 255)">
               <div class="d-flex features-icons-icon">
-                <img class="mx-auto mb-3 abcd" srcset="assets/service1.png" alt="" style="max-width: 100%; height: 300px" />
+                <img class="mx-auto mb-3 abcd" srcset="assets/service1.png" alt=""
+                  style="max-width: 100%; height: 300px" />
               </div>
               <h3 class="text-left mx-5" style="color: rgb(20, 33, 61)">Angkutan Pindahan</h3>
               <p class="lead mb-0 pb-4 text-left mx-5" style="color: rgb(20, 33, 61)">
@@ -204,7 +205,7 @@
             <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3" style="background-color: rgb(255, 255, 255)">
               <div class="d-flex features-icons-icon">
                 <img class="mx-auto mb-3 img-responsive" src="assets/service2.png" alt=""
-                  style="max-width: 100%; height: 300px"  />
+                  style="max-width: 100%; height: 300px" />
               </div>
               <h3 class="text-left mx-5" style="color: rgb(20, 33, 61)">Angkutan Proyek</h3>
               <p class="lead mb-0 pb-4 text-left mx-5" style="color: rgb(20, 33, 61)">
@@ -382,31 +383,8 @@
                 </div>
                 <div class="col-md-6 d-flex align-items-stretch">
                   <div class="info-wrap w-100 p-lg-5 p-4 text-left">
-                    <form method="POST" id="contactForm" name="contactForm" class="contactForm" novalidate="novalidate">
+                    <fform action="mailsender.php" method="post" class="php-email-form" data-recaptcha-site-key="6LfUmwoeAAAAAGf8sAGxwV20ZKTs0swRrUHLfdzF">
                       <div class="form-row">
-                        <div class="form-group col-md-6">
-                          <label for="inputFromZipCode">Kode Pos Asal</label>
-                          <input type="number" class="form-control" id="inputFromZipCode" value placeholder required>
-                        </div>
-                        <div class="form-group col-md-6">
-                          <label for="inputToZipCode">Kode Pos Tujuan</label>
-                          <input type="number" class="form-control" id="inputToZipCode" value placeholder required>
-                        </div>
-                        <div class="form-group col-md-8">
-                          <div class="form-group">
-                            <label for="inputDate">Tanggal</label>
-                            <input type="text" class="form-control" id="inputDate" value placeholder required />
-                          </div>
-                        </div>
-                        <div class="form-group col-md-4">
-                          <label for="inputRoom">Layanan</label>
-                          <select id="inputRoom" class="form-control" required>
-                            <option selected></option>
-                            <option>Fuso</option>
-                            <option>Elf</option>
-                            <option>Carry</option>
-                          </select>
-                        </div>
                         <div class="col-md-6 form-group">
                           <label for="inputFirstName">Nama Depan</label>
                           <input type="text" id="inputFirstName" class="form-control" placeholder required>
@@ -416,14 +394,13 @@
                           <input type="text" id="inputLastName" class="form-control" placeholder required>
                         </div>
                         <div class="form-group col-md-12">
-                          <label for="inputPhone">No. Telepon</label>
-                          <input type="tel" id="inputPhone" class="form-control" value="" placeholder="" maxlength="50"
-                            required>
+                          <label for="exampleFormControlTextarea1">Pesanan</label>
+                          <textarea class="form-control" id="subject" rows="3"></textarea>
                         </div>
                       </div>
                       <div class="form-group row">
                         <div class="col-12">
-                          <button type="submit" class="btn btn-primary" style="width: 100%;">Submit</button>
+                          <button type="submit" class="btn btn-primary-2" style="width: 100%;">Kirim</button>
                         </div>
                       </div>
                     </form>
@@ -483,6 +460,7 @@
   <script src="js/navscroll.js"></script>
   <script src="js/smoothscroll.js"></script>
   <script src="js/accordion.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js?render=6LfUmwoeAAAAAGf8sAGxwV20ZKTs0swRrUHLfdzF"></script>
 </body>
 
 </html>
