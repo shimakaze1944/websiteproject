@@ -28,8 +28,9 @@
   .section-1 {
     display: block;
   }
+
   .section-1 .row .col-12 .row .col-6 .text-left {
-    margin: 2rem 2rem 2rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
   }
   .section-1 .row .col-12 .row .col-6 .text-left h6 {
     font-size: 15px;
@@ -141,10 +142,6 @@
   .fixed {
     position: fixed;
     top: 0;
-  }
-  .navbar.collapsing,
-  .navbar.show {
-    background: white !important;
   }
 }
 

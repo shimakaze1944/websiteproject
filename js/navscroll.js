@@ -8,9 +8,9 @@ var num = 200; //number of pixels before modifying styles
 
 $(window).bind("scroll", function () {
   if ($(window).scrollTop() > num) {
-    $(".navbar").addClass("sticky", "sticky-a");
+    $(".navbar").addClass("sticky", "sticky-2");
   } else {
-    $(".navbar").removeClass("sticky", "sticky-a");
+    $(".navbar").removeClass("sticky", "sticky-2");
   }
 });
 
