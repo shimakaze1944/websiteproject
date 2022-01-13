@@ -142,6 +142,10 @@
     position: fixed;
     top: 0;
   }
+  .navbar.collapsing,
+  .navbar.show {
+    background: white !important;
+  }
 }
 
 /* screen size 480px */

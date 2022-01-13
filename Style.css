@@ -1,6 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Cairo");
-@import url("https://fonts.googleapis.com/css?family=Oxygen");
-
 @font-face {
   font-family: CreatoDisplay;
   src: url(font/Creato-Display.otf);
@@ -23,8 +20,6 @@ section {
   font-size: 55px;
 }
 :root {
-  --Cairo-font: "Cairo", cursive;
-  --Oxygen-font: "Oxygen", cursive;
   --Creato-font: "CreatoDisplay", cursive;
   --Lulo-font: "LuloClean", cursive;
 }
@@ -110,7 +105,7 @@ header {
 }
 
 header .container .col-md-7 {
-  font-family: "Cairo";
+  font-family: var(--Lulo-font);
 }
 
 header .container .col-md-7 h6 {
@@ -123,10 +118,12 @@ header .container .col-md-7 h1 {
   font-weight: bold;
   padding: 0.1em 0em;
   letter-spacing: 0em;
+  font-family: var(--Lulo-font);
 }
 
 header .container .col-md-7 p {
   padding: 1vmin 5vmin;
+  font-family: var(--Creato-font);
 }
 
 .primary-btn {
@@ -147,15 +144,20 @@ header .container .col-md-7 p {
   font-weight: bold;
   padding: 0.4em 0;
   font-size: 2em;
+  font-family: var(--Lulo-font);
 }
 
 .section-1 .row .col-md-6 .panel p {
   font-size: 0.9em;
   color: rgba(0, 0, 0, 0.5);
+
+  font-family: var(--Creato-font);
 }
 
 /*  Section 2  */
-
+.section-2 .h1-font-size {
+  font-family: var(--Creato-font);
+}
 .cover {
   width: 100%;
   background: url("assets/about.jpg");
@@ -258,12 +260,19 @@ header .container .col-md-7 p {
 .section-3 {
   margin-top: 10vmin;
 }
+.section-3 .h1-font-size {
+  font-family: var(--Creato-font);
+}
 .section-3 .row {
   margin-top: 5vmin;
 }
 
 .section-4 {
   margin-top: 14.5vmin;
+}
+.section-4 .h1-font-size {
+  font-family: var(--Creato-font);
+  font-size: 8vmin;
 }
 
 .section-4 .col-md-12 > h1 {
@@ -289,6 +298,8 @@ header .container .col-md-7 p {
 }
 .section-5 .text-dark h1 {
   font-size: 10vmin;
+  font-family: var(--Creato-font);
+  letter-spacing: -2px;
 }
 
 .section-5 .carousel {
@@ -302,12 +313,13 @@ header .container .col-md-7 p {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 .section-6 .container .row .col-md-10 .wrapper .row .col-md-6 .contact-wrap h2 {
-  padding-top: 40%;
+  padding-top: 5rem;
   font-size: 10vmin;
 }
 .section-6 .container .row .col-md-10 .wrapper .row .col-md-6 .contact-wrap p {
   margin: 0rem 8rem 1rem 0rem;
   font-size: 2.3vmin;
+  padding-bottom: 4rem;
 }
 .section-6 .container .row .col-md-10 .wrapper .row .col-md-6 .info-wrap form {
   padding: 20% 0 10% 0;
